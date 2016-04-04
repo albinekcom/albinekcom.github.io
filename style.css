@@ -1,9 +1,11 @@
 body {
-    background: linear-gradient(#000000, #5c5c5c)  !important;
+    background: linear-gradient(#000000, #5c5c5c) !important;
 }
+
 h1, p {
     color: white;
 }
+
 .img-center {
     position: absolute;
     top: 0;
