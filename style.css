@@ -1,6 +1,5 @@
 body {
-    /*background: linear-gradient(45deg, red, yellow)  !important;*/
-    background: black !important;
+    background: linear-gradient(#000000, #5c5c5c)  !important;
 }
 h1, p {
     color: white;
