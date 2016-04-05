@@ -1,6 +1,6 @@
 <img src="http://imgh.us/logo_228.svg" alt="albinek.com - logo">
 
-# albinekcom.github.io
+# albinek.com
 
 This is a testing website.
 
