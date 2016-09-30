@@ -6,5 +6,5 @@ This is a testing website.
 
 ## Usage
 
-1. Open: [albinekcom.github.io](http://albinekcom.github.io)
+1. Open: [albinek.com](http://albinek.com)
 2. Enjoy
