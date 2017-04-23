@@ -2,9 +2,9 @@
 
 # albinek.com
 
-This is a testing website.
+This is my official website.
 
 ## Usage
 
-1. Open: [albinek.com](http://albinek.com)
+1. Open [albinek.com](http://albinek.com)
 2. Enjoy
