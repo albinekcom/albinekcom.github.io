@@ -14,6 +14,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - octopress-minify-html
 exclude:
   - vendor
   - Gemfile
