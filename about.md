@@ -10,7 +10,7 @@ Currently I work as an iOS Developer.
 
 You can find me on:
 
-[github.com](https://github.com/albinek.com)
+[github.com](https://github.com/albinekcom)
 
 [twitter.com](https://twitter.com/albinekcom)
 
