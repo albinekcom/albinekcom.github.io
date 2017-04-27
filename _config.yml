@@ -7,14 +7,28 @@ twitter_username: albinekcom
 github_username: albinekcom
 
 google_analytics: UA-80395419-1
+
 disqus:
   shortname: albinekcom
+
 permalink: /:title
 markdown: kramdown
 theme: minima
+
 gems:
   - jekyll-feed
+
 exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
