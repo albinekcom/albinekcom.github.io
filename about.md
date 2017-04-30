@@ -15,7 +15,7 @@ Find me on:
 [![linkedin.com][logo_linkedin]](https://www.linkedin.com/in/albin-sadowski-b8b644a9)
 [![snapchat.com][logo_snapchat]](https://www.snapchat.com/add/albinekcom)
 
-[logo_github]: assets/logo/github.svg "Github"
-[logo_twitter]: assets/logo/twitter.svg "Twitter"
-[logo_linkedin]: assets/logo/linkedin.svg "LinkedIn"
-[logo_snapchat]: assets/logo/snapchat.svg "Snapchat"
+[logo_github]: /assets/logo/github.svg "Github"
+[logo_twitter]: /assets/logo/twitter.svg "Twitter"
+[logo_linkedin]: /assets/logo/linkedin.svg "LinkedIn"
+[logo_snapchat]: /assets/logo/snapchat.svg "Snapchat"
