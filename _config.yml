@@ -22,6 +22,9 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - CNAME
+  - README.md
+  - Rakefile
 
 compress_html:
   clippings: all
