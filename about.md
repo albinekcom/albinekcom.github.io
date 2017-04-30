@@ -4,11 +4,11 @@ title: About
 permalink: /about
 ---
 
-Yeah I know, this page will be improved in the future. 😉
+I am **Albin "albinek" Sadowski** and I work as an iOS Developer. 💻
 
-Currently I work as an iOS Developer.
+On my website you can find some of my IT thoughts, tricks and things around that subject. Enjoy! 😎
 
-Find me on:
+Fell free to contact me using your favorite channel:
 
 [![github.com][logo_github]](https://github.com/albinekcom)
 [![twitter.com][logo_twitter]](https://twitter.com/albinekcom)
