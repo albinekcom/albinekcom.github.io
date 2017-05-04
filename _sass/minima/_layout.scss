@@ -28,6 +28,16 @@
   }
 }
 
+.site-logo {
+  display: inline-block;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  width: 64px;
+  height: 64px;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
