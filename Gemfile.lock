@@ -42,6 +42,8 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.2.2)
       jekyll (~> 3.3)
+    jekyll-sitemap (1.1.1)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -80,6 +82,7 @@ DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   jekyll-seo-tag
+  jekyll-sitemap
   rake
 
 RUBY VERSION
