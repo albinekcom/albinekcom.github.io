@@ -1,10 +1,17 @@
 title: albinek.com
-email: albinek@albinek.com
 description: "Mostly thoughts about IT stuff."
 baseurl: ""
-url: "http://albinek.com"
-twitter_username: albinekcom
-github_username: albinekcom
+
+author:
+  name: "Albinek \"albinek\" Sadowski"
+  email: "albinek@albinek.com"
+  url: "http://albinek.com"
+
+twitter:
+  username: albinekcom
+
+github:
+  username: albinekcom
 
 google_analytics: UA-80395419-1
 
@@ -16,6 +23,7 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 
 exclude:
   - vendor
@@ -34,3 +42,6 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
+
+sass:
+  style: compressed
