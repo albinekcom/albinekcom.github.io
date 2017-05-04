@@ -99,8 +99,7 @@ a {
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $text-secondary-color;
   }
 
   .social-media-list &:hover {
