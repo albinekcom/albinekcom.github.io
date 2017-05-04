@@ -13,7 +13,6 @@ disqus:
 
 permalink: /:title
 markdown: kramdown
-theme: minima
 
 gems:
   - jekyll-feed

@@ -49,8 +49,6 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     minitest (5.10.1)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
@@ -79,7 +77,6 @@ DEPENDENCIES
   html-proofer
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
   rake
 
 RUBY VERSION
