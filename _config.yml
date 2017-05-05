@@ -1,6 +1,5 @@
 title: albinek.com
 description: "Mostly thoughts about IT stuff. Short answers for sophisticated questions."
-baseurl: ""
 year: 2017
 
 author:
@@ -14,7 +13,8 @@ twitter:
 github:
   username: albinekcom
 
-google_analytics: UA-80395419-1
+google:
+  analytics: UA-80395419-1
 
 disqus:
   shortname: albinekcom
