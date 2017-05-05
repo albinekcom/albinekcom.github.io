@@ -9,7 +9,7 @@
         <ul class="contact-list">
           <li>
             {% if site.author %}
-              {{ site.author.name | escape }}
+              {{ site.author.name }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
