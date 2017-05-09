@@ -4,9 +4,7 @@ title:      "Hello, Blog! 🌐"
 date:       2017-04-23 21:00:23 +0200
 categories: info
 ---
-{:refdef: style="text-align: center; max-height: 200px;"}
-![Hello!](/assets/img/post/hello-blog-0.jpg)
-{:refdef}
+![Hello!](/assets/img/post/hello-blog-0.jpg){: .center-image }
 
 This is the first post. It will be used to check if everything looks properly.
 
