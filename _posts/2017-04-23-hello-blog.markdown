@@ -3,6 +3,7 @@ layout:     post
 title:      "Hello, Blog! 🌐"
 date:       2017-04-23 21:00:23 +0200
 categories: info
+image:      /assets/img/post/hello-blog-0.jpg
 ---
 ![Hello!](/assets/img/post/hello-blog-0.jpg){: .center-image }
 
@@ -34,13 +35,13 @@ Inline `code` has `back-ticks around` it.
 Example code snippet:
 
 {% highlight swift %}
-func print(what: String, for name: String) {
-  print("Hi, \(name)")
+func print(what: String, to name: String) {
+  print("\(what), \(name)!")
 }
 
-print(what: "Hi", for: "Stefan")
+print(what: "Hi", to: "Stefan")
 
-#=> prints "Hi, Stefan" to STDOUT.
+#=> prints "Hi, Stefan!" to STDOUT.
 {% endhighlight %}
 
 Example link: [albinek.com][albinekcom]

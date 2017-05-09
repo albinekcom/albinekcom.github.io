@@ -22,6 +22,12 @@ disqus:
 permalink: /:title
 markdown: kramdown
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo/albinek.com.png
+
 gems:
   - jekyll-feed
   - jekyll-sitemap

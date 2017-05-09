@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about
+layout:     page
+title:      About
+permalink:  /about
 ---
 
 I am **Albin "albinek" Sadowski** and I work as an iOS Developer. 💻
