@@ -1,4 +1,4 @@
-<img src="http://imgh.us/logo_234.svg" alt="albinek.com - logo">
+<img src="http://imgh.us/logo_603.svg" alt="albinek.com - logo">
 
 # albinek.com
 
