@@ -9,4 +9,4 @@ This is my official website.
 ## Usage
 
 1. Open [albinek.com](http://albinek.com)
-2. Enjoy
+2. Enjoy 😉
