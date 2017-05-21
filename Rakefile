@@ -7,7 +7,10 @@ task :build do
 end
 
 task :test do
-  htmlproofer_options = { assume_extension: true, http_status_ignore: [999] }
+  htmlproofer_options = {
+    assume_extension: true,
+    http_status_ignore: [999]
+  }
 
-  HTMLProofer.check_directory('./_site', htmlproofer_options).run
+  HTMLProofer.check_directory('_site', htmlproofer_options).run
 end
