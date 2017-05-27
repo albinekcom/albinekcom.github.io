@@ -5,7 +5,8 @@ date:       2017-04-23 21:00:23 +0200
 categories: info
 image:      /assets/img/post/hello-blog-0.jpg
 ---
-![Hello!](/assets/img/post/hello-blog-0.jpg){: .center-image }
+
+![Hello!]({{ page.image }}){: .center-image }
 
 This is the first post. It will be used to check if everything looks properly.
 
