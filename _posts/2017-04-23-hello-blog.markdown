@@ -6,7 +6,7 @@ categories: info
 image:      /assets/img/post/hello-blog-0.jpg
 ---
 
-![Hello!]({{ page.image }}){: .center-image }
+![Hello!]({{ page.image }})
 
 This is the first post. It will be used to check if everything looks properly.
 
