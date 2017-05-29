@@ -135,6 +135,35 @@
 
 .contact-link {
   padding: 6px;
+
+  svg:hover #logo-rss {
+    fill: #F26522;
+  }
+
+  svg:hover #logo-email {
+    fill: #D34D43;
+  }
+
+  svg:hover #logo-github {
+    fill: #010101;
+  }
+
+  svg:hover #logo-twitter {
+    fill: #F26522;
+  }
+
+  svg:hover #logo-linkedin {
+    fill: #0077B5;
+  }
+
+  svg:hover #logo-facebook {
+    fill: #3B5998;
+  }
+
+  svg:hover #logo-snapchat {
+    fill: #FFFA37;
+  }
+
 }
 
 .share-buttons {
