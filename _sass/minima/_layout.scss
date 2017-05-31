@@ -3,12 +3,6 @@
  */
 .site-header {
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-  min-height: 64px;
-  text-align: center;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
 
   background: $navigation-bottom-left-background-color;
   background: -webkit-linear-gradient(left bottom, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* For Safari 5.1 to 6.0 */
@@ -17,27 +11,60 @@
   background: linear-gradient(to top right, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* Standard syntax */
 }
 
-.site-logo {
-  display: inline-block;
-  margin-top: 10px;
+.main-header {
+  position: relative;
+  text-align: center;
+  height: 64px;
 }
 
-.site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  margin-top: 4px;
+.header-left {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
 
-  .page-link {
-    line-height: $base-line-height;
+.header-center {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+
+.header-right {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+
+.centered-inner {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-inner {
+  position: relative;
+  top: 50%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation-about {
+  color: #F3F3F3;
+
+  &:visited {
     color: #F3F3F3;
+  }
 
-    &:hover {
-      color: $brand-color;
-    }
+  &:hover {
+    color: $brand-color;
   }
 }
 
-
+.site-logo {
+  display: inline-block;
+  margin-top: 6px;
+}
 
 /**
  * Site footer

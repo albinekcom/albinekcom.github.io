@@ -1,15 +1,23 @@
 <header class="site-header">
 
   <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
+    <div class="main-header">
+      <div class="header-left"></div>
 
-    <a class="site-logo" href="{{ "/" | relative_url }}">
-      <svg width="86" height="34" viewBox="0 0 138 69" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r="141.421%" gradientTransform="matrix(.19517 -.19517 .04094 1.03374 -.04 -.034)" id="a"><stop stop-color="#A72929" offset="0%"/><stop stop-color="#C12222" offset="100%"/></radialGradient><radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="495.015%" gradientTransform="scale(-1 -.201) rotate(-45.74 0 2.37)" id="b"><stop stop-color="#FFF" offset="0%"/><stop stop-color="#DCDCDC" offset="100%"/></radialGradient><radialGradient cx="150.823%" cy="0%" fx="150.823%" fy="0%" r="180.963%" gradientTransform="matrix(-.7032 .46625 -.77573 -.50314 2.569 -.703)" id="c"><stop stop-color="#FDFDFD" offset="0%"/><stop stop-color="#FFF" offset="49.695%"/><stop stop-color="#DCDCDC" offset="100%"/></radialGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" d="M67.869 54.97h69.058v13.742H67.869z" transform="translate(.244 .144)"/><path fill="url(#b)" d="M49.914 0h13.812v68.713H49.914z" transform="translate(.244 .144)"/><path d="M45.08 12.493V0C-15 0-15 68.713 45.08 68.713V56.219c-42.816 0-42.816-43.726 0-43.726z" fill="url(#c)" transform="translate(.244 .144)"/></g></svg>
-    </a>
+      <div class="header-center">
+        <div class="centered-inner">
+          <a class="site-logo" href="{{ "/" | relative_url }}">
+            <svg width="86" height="34" viewBox="0 0 138 69" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient cx="0%" cy="100%" fx="0%" fy="100%" r="141.421%" gradientTransform="matrix(.19517 -.19517 .04094 1.03374 -.04 -.034)" id="a"><stop stop-color="#A72929" offset="0%"/><stop stop-color="#C12222" offset="100%"/></radialGradient><radialGradient cx="100%" cy="0%" fx="100%" fy="0%" r="495.015%" gradientTransform="scale(-1 -.201) rotate(-45.74 0 2.37)" id="b"><stop stop-color="#FFF" offset="0%"/><stop stop-color="#DCDCDC" offset="100%"/></radialGradient><radialGradient cx="150.823%" cy="0%" fx="150.823%" fy="0%" r="180.963%" gradientTransform="matrix(-.7032 .46625 -.77573 -.50314 2.569 -.703)" id="c"><stop stop-color="#FDFDFD" offset="0%"/><stop stop-color="#FFF" offset="49.695%"/><stop stop-color="#DCDCDC" offset="100%"/></radialGradient></defs><g fill="none" fill-rule="evenodd"><path fill="url(#a)" d="M67.869 54.97h69.058v13.742H67.869z" transform="translate(.244 .144)"/><path fill="url(#b)" d="M49.914 0h13.812v68.713H49.914z" transform="translate(.244 .144)"/><path d="M45.08 12.493V0C-15 0-15 68.713 45.08 68.713V56.219c-42.816 0-42.816-43.726 0-43.726z" fill="url(#c)" transform="translate(.244 .144)"/></g></svg>
+          </a>
+        </div>
+      </div>
 
-    <nav class="site-nav">
-      <a class="page-link" href="/about">About</a>
-    </nav>
+      <div class="header-right">
+        <nav class="right-inner">
+          <a class="navigation-about" href="/about">About</a>
+        </nav>
+      </div>
+    </div>
+
   </div>
 </header>
