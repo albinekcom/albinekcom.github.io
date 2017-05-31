@@ -1,0 +1,43 @@
+---
+layout:     post
+title:      "Vision 💡"
+date:       2017-05-31 08:00:00 +0200
+categories: info
+image:      /assets/img/post/vision-0.jpg
+---
+
+![Vision]({{ page.image }})
+
+## Why?
+
+It is time to try something new. The main purposes of this website are:
+
+1. Sharing the knowledge.
+2. Gathering all necessary information in one place.
+3. Easy linking to everyone interested in particular subject.
+4. Discussing some solutions.
+5. And the most important: fun during publishing new stuff! 🎉
+
+
+## Content
+
+IT stuff. Mostly. Coding probably will be the good start but I am also open for other things. Computer graphics, developing software using exotic language, automating stuff or even machine learning are nice topics to tackle. Stay tuned!
+
+
+## Structure
+
+Every post will be divided into some small sections and I will try posting them regularly. Maximum reading time of one post should be about 5 minutes. Discussion is always welcome!
+
+
+## Technical aspects
+
+Mobile first - definitely. Keeping site [The W3C Markup Validation Service](https://validator.w3.org/nu/?doc=http%3A%2F%2Falbinek.com%2F) error and warning free, [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?hl=pl&url=albinek.com) and [Seoptimer](http://www.seoptimer.com/albinek.com) scores as high as it is possible.
+
+It is used [Jekyll - static site generator](https://jekyllrb.com). Website is hosted on [GitHub Pages](https://pages.github.com). The theme of this website is modified and adjusted [minima](https://github.com/jekyll/minima). Vector images over rasterized images! (make images sharp as 🔪) Optimize everything what can be and emoji used in a proper way. 😎
+
+Website source code can be found [here](https://github.com/albinekcom/albinekcom.github.io). Pull requests are also welcome!
+
+
+## Next step
+
+The next step is very simple - it is time to start posting! Every kind of feedback is highly appreciated.
