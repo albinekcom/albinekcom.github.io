@@ -43,12 +43,13 @@
 }
 
 .right-inner {
-  transform: translate(0%, 75%);
+  transform: translate(0%, 80%);
   text-align: right;
 }
 
 .navigation-about {
   color: #F3F3F3;
+  font-size: $small-font-size;
 
   &:visited {
     color: #F3F3F3;
