@@ -37,7 +37,7 @@ defaults:
     values:
       image: /assets/img/logo/albinek.com.png
 
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
