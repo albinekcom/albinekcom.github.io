@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby RUBY_VERSION
 
-gem 'jekyll', '3.8.2'
+gem 'jekyll', '3.8.3'
 
 group :jekyll_plugins do
    gem 'jekyll-feed'
