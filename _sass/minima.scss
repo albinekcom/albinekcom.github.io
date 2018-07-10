@@ -27,6 +27,8 @@ $on-laptop:        800px !default;
 $navigation-bottom-left-background-color: #000000 !default;
 $navigation-top-right-background-color: #4D4D4D !default;
 
+$table-text-align: left !default;
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
