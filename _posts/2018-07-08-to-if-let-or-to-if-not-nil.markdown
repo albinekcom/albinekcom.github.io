@@ -133,8 +133,8 @@ For `Swift 4.0` `if let _ = someVariable` is about **360%** faster than `if some
 
 ## Conclusions
 
-- `if let _ = someVariable` has better performance
-- It is pointless to use always the same solution. Maybe you can use something different because your approach it is not the best right now.
+- `if let _ = someVariable` has better performance.
+- The solution from the past could be not the best right now so be prepared for the changes.
 - The performance of the some of the instructions are different using various version of the language (changes in the compiler). So when you use something because it is faster than another instruction - make sure that you are 100% right and check it when you use the newest version of your programming language. 😉
 
 
