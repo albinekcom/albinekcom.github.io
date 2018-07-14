@@ -1,9 +1,10 @@
 ---
-layout:     post
-title:      "To if let or to not nil? 💀"
-date:       2018-07-08 22:00:00 +0200
-categories: swift
-image:      /assets/img/post/to-if-let-or-to-if-not-nil-0.png
+layout:       post
+title:        "To if let or to not nil? 💀"
+description:  "Comparing performance of the two instructions: 'if _ = let' and 'if something != nil'"
+date:         2018-07-08 22:00:00 +0200
+categories:   swift
+image:        /assets/img/post/to-if-let-or-to-if-not-nil-0.png
 ---
 
 ![Vision]({{ page.image }})

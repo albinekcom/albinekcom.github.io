@@ -1,9 +1,10 @@
 ---
-layout:     post
-title:      "Map vs for in vs forEach challenge in Swift ⚔️"
-date:       2018-04-27 8:00:00 +0200
-categories: swift
-image:      /assets/img/post/map-method-0.png
+layout:       post
+title:        "Map vs for in vs forEach challenge in Swift ⚔️"
+description:  "Comparing performance of the three instructions: 'for in', 'for' and `forEach`"
+date:         2018-04-27 8:00:00 +0200
+categories:   swift
+image:        /assets/img/post/map-method-0.png
 ---
 
 ![Vision]({{ page.image }})

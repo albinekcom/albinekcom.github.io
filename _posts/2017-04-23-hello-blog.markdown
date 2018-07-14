@@ -1,9 +1,10 @@
 ---
-layout:     post
-title:      "Hello, Blog! 🌐"
-date:       2017-04-23 21:00:23 +0200
-categories: info
-image:      /assets/img/post/hello-blog-0.jpg
+layout:       post
+title:        "Hello, Blog! 🌐"
+description:  "This is the first testing post"
+date:         2017-04-23 21:00:23 +0200
+categories:   info
+image:        /assets/img/post/hello-blog-0.jpg
 ---
 
 ![Hello!]({{ page.image }})
