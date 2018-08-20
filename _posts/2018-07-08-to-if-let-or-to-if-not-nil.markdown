@@ -7,7 +7,7 @@ categories:   swift
 image:        /assets/img/post/to-if-let-or-to-if-not-nil-0.png
 ---
 
-![Vision]({{ page.image }})
+![Cover]({{ page.image }})
 
 ## Is it `nil`?
 
