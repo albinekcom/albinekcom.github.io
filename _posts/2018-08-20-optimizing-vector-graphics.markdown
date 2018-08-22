@@ -57,7 +57,7 @@ It is nice, file is small but can it be improved?
 
 ## Optimising SVG using SVGO tool
 
-One of the tool is [SVGO](https://github.com/svg/svgo). It needs `npm` so you need to install it before (`$ brew install npm` for `macOS`). After that you can install SVGO using command `$ npm install -g svgo`. Now you can use it, let's do it in a lazy way - with a default option:
+One of the tool is [SVGO](https://github.com/svg/svgo). It needs `npm` which is included in `Node.js` so you need to install it before (`$ brew install node` for `macOS`). After that you can install SVGO using command `$ npm install -g svgo`. Now you can use it, let's do it in a lazy way - with a default option:
 
 ```bash
 $ svgo image.svg
