@@ -11,7 +11,7 @@ image:        /assets/img/post/from-debug-to-release-0.png
 
 ## Debug anyone?
 
-In the previous blog posts ([Map vs for in vs forEach challenge in Swift ⚔️](map-method-vs-for-loop) and [To if let or to not nil? 💀](to-if-let-or-to-if-not-nil)) I have tested some methods using unit tests and function `measure()` from `XCTest` framework. But are these results also legit for the production? Let's take a look that `loop` challenge and test it using different building configurations.
+In the previous blog post ([Map vs for in vs forEach challenge in Swift ⚔️](map-method-vs-for-loop) and [To if let or to not nil? 💀](to-if-let-or-to-if-not-nil)) I have tested some methods using unit tests and function `measure()` from `XCTest` framework. But are these results also legit for the production? Let's take a look that `loop` challenge and test it using different building configurations.
 
 
 ## From tests to the code in debug mode
