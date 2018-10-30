@@ -11,7 +11,7 @@ image:        /assets/img/post/optimizing-raster-images-0.png
 
 ## Show me your #nice_pictures
 
-In the previous blog posts ([Optimizing vector graphics 👁](optimizing-vector-graphics)) I described how in a easy way optimize vector images. Vectors are great but we are still surrounded by typical, classic images. `JPEG`, `PNG`, `GIF`... These files could be also improved (with smaller file size as an output). How you can do it? By using a proper tool!
+In the previous blog post ([Optimizing vector graphics 👁](optimizing-vector-graphics)) I described how in a easy way optimize vector images. Vectors are great but we are still surrounded by typical, classic images. `JPEG`, `PNG`, `GIF`... These files could be also improved (with smaller file size as an output). How you can do it? By using a proper tool!
 
 ## Perfect tool?
 
@@ -32,7 +32,7 @@ A lot of stuff. So what is the good solution? You can always use each one, try i
 
 ## Optimizing using ImageOptim
 
-This is a macOS application. It contains some of the previously listed tools. The usage is quite simple: drag & drop the files and wait for the results.
+[ImageOptim](https://imageoptim.com/mac) is a macOS application. It contains some of the previously listed tools. The usage is quite simple: drag & drop the files and wait for the results.
 
 ![ImageOptim](/assets/img/post/optimizing-raster-images-1.png)
 

@@ -9,7 +9,7 @@ end
 task :test do
   htmlproofer_options = {
     assume_extension: true,
-    http_status_ignore: [999],
+    http_status_ignore: [401, 999],
     typhoeus: {
       ssl_verifypeer: false,
       ssl_verifyhost: 0
