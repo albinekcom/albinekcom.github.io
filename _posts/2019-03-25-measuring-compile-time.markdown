@@ -13,7 +13,7 @@ image:        /assets/img/post/measuring-compile-time-0.png
 
 More features, more code, longer compile time. Probably you heard about some tips and tricks how to improve it. Do you think that this code improvement makes your compilation faster? It is a good idea to have a specific determinant before doing it. The best approach will be measuring the compile time before particular improvement and measure it after that.
 
-## Using `Report navigator`
+## Using Report navigator
 
 The simplest way is to open `Report navigator` in Xcode (`⌘+9` shortcut key), select a particular build and look at the time next to `Compile Swift source files` phase.
 
