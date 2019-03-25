@@ -56,7 +56,7 @@ Follow the steps included in the `README.md` to use this tool (mostly it is abou
 
 ![Example of usage "Build Time Analyzer for Xcode" tool](/assets/img/post/measuring-compile-time-3.png)
 
-The example used in this post can be found here: [Measuring Compile Time Example](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode) [TODO: Insert proper link]
+The example used in this post can be found here: [Measuring Compile Time Example](https://github.com/albinekcom/MeasuringCompileTimeExample).
 
 ## Conclusions
 
