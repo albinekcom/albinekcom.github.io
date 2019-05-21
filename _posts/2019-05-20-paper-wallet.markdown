@@ -11,11 +11,11 @@ image:        /assets/img/post/paper-wallet-0.png
 
 ## Give me my money
 
-Today's topis is something different. I heard that many people are investing in some stocks, jewelery collections or cryptocurrencies. When I looked closer at the last mentioned approach I noticed that people are buying some small amount of crypto and store them on crypto exchange. Exchange serivces work properly so there is no problem. But what happend when this crypto exchange will be closed one day? Or will you do when there is a maintenance break at particular moment when you need some of your coins?
+Today's topis is something different. I heard that many people are investing in some stocks, jewelry collections or cryptocurrencies. When I looked closer at the last mentioned approach I noticed that people are buying some small amount of crypto and store them on crypto exchange. Exchange services work properly so there is no problem. But what happened when this crypto exchange will be closed one day? Or will you do when there is a maintenance break at particular moment when you need some of your coins?
 
 ## "If you don't own your private keys, you don't own the coins"
 
-If you have something on a crypto exchange, it means that in the exchange's internal database particular value is assigned to your account (mostly your e-mail address). When you want to withdraw something you make a disposition to the crypto exchange and after a while they send proper value from their "real crypto account" and change the balance on your account. This is the reason why it is not so fast and a transaction fee of this operation is more expensive than typical transfering between crypto accounts (an exchange also takes some extra fee).
+If you have something on a crypto exchange, it means that in the exchange's internal database particular value is assigned to your account (mostly your e-mail address). When you want to withdraw something you make a disposition to the crypto exchange and after a while they send proper value from their "real crypto account" and change the balance on your account. This is the reason why it is not so fast and a transaction fee of this operation is more expensive than typical transferring between crypto accounts (an exchange also takes some extra fee).
 
 If something wrong happens like some "improvements" in the database, changes in the policy of the exchange or other stuff - it will be your problem. Anyone remembers [Mt.Gox](https://en.wikipedia.org/wiki/Mt._Gox)?
 
@@ -25,11 +25,11 @@ Most cryptocurrencies wallets contains two values: public key and private key. Y
 - public key - your account number
 - private key - your password
 
-The "key" is to share your public key among your friends and gather as many coins as you can on your account and do not share a private key with anoyone. 😉
+The "key" is to share your public key among your friends and gather as many coins as you can on your account and do not share a private key with anyone. 😉
 
 ## Paper wallet
 
-To generater these pairs you can use a lot of stuff like a special application on your computer, an application on your mobile device, web wallets, hardware wallets etc. but I think that the fastest and easier way is to use paper wallet.
+To generate these pairs you can use a lot of stuff like a special application on your computer, an application on your mobile device, web wallets, hardware wallets etc. but I think that the fastest and easier way is to use paper wallet.
 
 `Paper wallet` is just your public and private key written on the paper. There are many websites to generate them. You can print generated values, save them in your hidden and encrypted directory or even try to know by heart. 😉 It is a free of charge solution and everyone can do it right now.
 
@@ -61,12 +61,12 @@ The example of paper wallet for `Bitcoin` could be [bitaddress.org](https://www.
 
 It could be easy to forget about the proper sequence of characters in your private key. Moreover you have only this one particular address for every transactions (although for many people it could be an advantage, "one to rule them all"). More flaws are listed on [en.bitcoin.it/wiki/Paper_wallet](https://en.bitcoin.it/wiki/Paper_wallet).
 
-`Seed phrase` approach is recomendend right now and in the future I will try to write something about it.
+`Seed phrase` approach is recommended right now and in the future I will try to write something about it.
 
 If you would like you to trade coins stored on your paper wallet - yes, you need to transfer your coins to the crypto exchange back again. The solution is using decentralized crypto exchanges where you have your keys stored locally on your device, but they are not popular nowadays.
 
 ## Conclusions
 
-- Try not to store a large ammount of your coins on crypto exchnages.
+- Try not to store a large amount of your coins on crypto exchanges.
 - Securely storing a private key by you makes sure that you are the owner of your coins.
 - Start with generating paper wallets. Look for other solutions if this option is not suitable for you.
