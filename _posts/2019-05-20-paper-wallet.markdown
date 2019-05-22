@@ -11,7 +11,7 @@ image:        /assets/img/post/paper-wallet-0.png
 
 ## Give me my money
 
-Today's topic is something different. I heard that many people are investing in some stocks, jewelry collections or cryptocurrencies. When I looked closer at the last mentioned approach I noticed that people are buying some small amount of crypto and store them on crypto exchange. Exchange services work properly so there is no problem. But what happened when this crypto exchange will be closed one day? Or will you do when there is a maintenance break at particular moment when you need some of your coins?
+Today's topic is something different. I heard that many people are investing in some stocks, jewelry collections or cryptocurrencies. When I looked closer at the last mentioned approach I noticed that people are buying some small amount of crypto and store them on crypto exchange. Exchange services work properly so there is no problem. But what happened when this crypto exchange will be closed one day? Or what will you do when there is a maintenance break at the moment when you need some of your coins?
 
 ## "If you don't own your private keys, you don't own the coins"
 
