@@ -55,7 +55,7 @@ Make any change in computed property `body` and admire "quickly refreshed" the r
 Despite the fact it is still in the beta phase, there are some places where you can gain more knowledge and try examples:
 - [SwiftUI videos at WWDC 2019](https://developer.apple.com/videos/wwdc2019/?q=swiftui)
 - [SwiftUI Tutorials - Apple Developer Documentation](https://developer.apple.com/tutorials/swiftui/)
-- Tutorials from other bloggers like [SwiftUI by example](https://www.hackingwithswift.com/quick-styourart/swiftui)
+- Tutorials from other bloggers like [SwiftUI by example](https://www.hackingwithswift.com/quick-start/swiftui)
 
 And many many more, just use your favorite search engine to find.
 
