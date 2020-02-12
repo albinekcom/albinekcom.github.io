@@ -249,3 +249,14 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+/**
+* Dark Mode
+*/
+
+@media (prefers-color-scheme: dark) {
+  body, a, a:hover, table {
+    color: $text-color-for-dark-mode;
+    background-color: $background-color-for-dark-mode;
+  }
+}

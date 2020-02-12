@@ -10,13 +10,28 @@ $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
+// Colors
+
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #bf2529 !default;
+$about-color:      #F3F3F3 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+
+$navigation-bottom-left-background-color: #000000 !default;
+$navigation-top-right-background-color: #4D4D4D !default;
+
+// Dark Mode
+
+$text-color-for-dark-mode:       #dddddd !default;
+$background-color-for-dark-mode: rgb(28, 28, 28) !default;
+$brand-color-for-dark-mode:      #bf2529 !default;
+$navigation-background-color-for-dark-mode: rgb(22, 22, 22) !default;
+$about-color:                    #F3F3F3 !default;
+$about-color-for-dark-mode:       $text-color-for-dark-mode !default;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -24,8 +39,6 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
-$navigation-bottom-left-background-color: #000000 !default;
-$navigation-top-right-background-color: #4D4D4D !default;
 
 $table-text-align: left !default;
 

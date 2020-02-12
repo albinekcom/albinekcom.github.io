@@ -48,11 +48,11 @@
 }
 
 .navigation-about {
-  color: #F3F3F3;
+  color: $about-color;
   font-size: $small-font-size;
 
   &:visited {
-    color: #F3F3F3;
+    color: $about-color;
   }
 
   &:hover {
@@ -171,7 +171,7 @@
   }
 
   svg:hover #logo-github {
-    fill: #010101;
+    fill: #383838;
   }
 
   svg:hover #logo-twitter {
@@ -212,4 +212,34 @@
 
 .tw-share-button {
   overflow: hidden;
+}
+
+/**
+* Dark Mode
+*/
+
+@media (prefers-color-scheme: dark) {
+  .site-header {
+    background: $navigation-background-color-for-dark-mode;
+  }
+
+  .navigation-about, .navigation-about:visited {
+    color: $about-color-for-dark-mode;
+  }
+
+  .navigation-about:hover {
+    color: $brand-color;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  svg #logo-snapchat-2 {
+    fill: $background-color-for-dark-mode;
+  }
+
+  .contact-link {
+    svg:hover {
+      fill: #FFF;
+    }
+  }
 }
