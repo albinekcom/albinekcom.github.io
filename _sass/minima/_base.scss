@@ -255,9 +255,22 @@ table {
 */
 
 @media (prefers-color-scheme: dark) {
-  body, a, a:hover, table {
+  body {
     color: $text-color-for-dark-mode;
     background-color: $background-color-for-dark-mode;
+  }
+
+  table {
+    color: $text-color-for-dark-mode;
+    background-color: $background-color-for-dark-mode;
+  }
+
+  a, a:visited {
+    color: $text-color-for-dark-mode;
+  }
+
+  a:hover {
+    color: $brand-color;
   }
 
   .site-logo, .site-logo:hover, .navigation-about, .navigation-about:hover {
