@@ -259,4 +259,8 @@ table {
     color: $text-color-for-dark-mode;
     background-color: $background-color-for-dark-mode;
   }
+
+  .site-logo, .site-logo:hover, .navigation-about, .navigation-about:hover {
+    background-color: transparent;
+  }
 }
