@@ -262,7 +262,10 @@ table {
 
   table {
     color: $text-color-for-dark-mode;
-    background-color: $background-color-for-dark-mode;
+
+    th {
+      background-color: darken($background-color-for-dark-mode, 5%);
+    }
   }
 
   a, a:visited {
