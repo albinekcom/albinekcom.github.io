@@ -216,6 +216,10 @@
   overflow: hidden;
 }
 
+#logo-instagram-inside {
+  fill: $background-color;
+}
+
 /**
 * Dark Mode
 */
@@ -244,9 +248,17 @@
     fill: $background-color-for-dark-mode;
   }
 
-  .contact-link {
-    svg:hover {
+  .contact-circle {
+    &:hover {
       fill: #FFF;
     }
+  }
+
+  #logo-instagram-inside {
+    fill: $background-color-for-dark-mode;
+  }
+
+  .contact-circle {
+    fill: $social-icon-circle-color-for-dark-mode;
   }
 }

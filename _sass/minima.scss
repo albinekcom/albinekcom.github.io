@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -24,6 +24,8 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $navigation-bottom-left-background-color: #000000 !default;
 $navigation-top-right-background-color: #4D4D4D !default;
 
+$social-icon-circle-color: #cccccc !default;
+
 // Dark Mode
 
 $text-color-for-dark-mode:       #cccccc !default;
@@ -33,6 +35,8 @@ $navigation-background-color-for-dark-mode: rgb(22, 22, 22) !default;
 $about-color:                    #F3F3F3 !default;
 $about-color-for-dark-mode:       $text-color-for-dark-mode !default;
 $border-color-for-dark-mode:     darken($text-color-for-dark-mode, 30%) !default;
+$social-icon-circle-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default
+$emphasized-text-border-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default
 
 // Width of the content area
 $content-width:    800px !default;

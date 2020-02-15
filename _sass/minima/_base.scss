@@ -279,4 +279,8 @@ table {
   .site-logo, .site-logo:hover, .navigation-about, .navigation-about:hover {
     background-color: transparent;
   }
+
+  pre, code, blockquote {
+    border-color: $emphasized-text-border-color-for-dark-mode;
+  }
 }
