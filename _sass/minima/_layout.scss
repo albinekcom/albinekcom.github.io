@@ -2,7 +2,8 @@
  * Site header
  */
 .site-header {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid;
+  border-color: $grey-color-light;
 
   background: $navigation-bottom-left-background-color;
   background: -webkit-linear-gradient(left bottom, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* For Safari 5.1 to 6.0 */
@@ -69,7 +70,8 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid;
+  border-color: $grey-color-light;
   padding: $spacing-unit 0;
   color: $grey-color;
   text-align: center;
@@ -221,6 +223,11 @@
 @media (prefers-color-scheme: dark) {
   .site-header {
     background: $navigation-background-color-for-dark-mode;
+    border-color: $border-color-for-dark-mode;
+  }
+
+  .site-footer {
+    border-color: $border-color-for-dark-mode;
   }
 
   .navigation-about, .navigation-about:visited {
