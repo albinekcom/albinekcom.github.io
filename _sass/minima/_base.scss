@@ -265,6 +265,17 @@ table {
 
     th {
       background-color: darken($background-color-for-dark-mode, 5%);
+      border-color: lighten($background-color-for-dark-mode, 20%);
+    }
+
+    tr {
+      &:nth-child(even) {
+        background-color: lighten($background-color-for-dark-mode, 5%);
+      }
+    }
+
+    td {
+      border-color: lighten($background-color-for-dark-mode, 25%);
     }
   }
 
