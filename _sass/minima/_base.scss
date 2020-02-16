@@ -270,6 +270,11 @@ table {
 
   a, a:visited {
     color: $text-color-for-dark-mode;
+    text-decoration: underline;
+  }
+
+  .post-link {
+    text-decoration: none;
   }
 
   a:hover {
