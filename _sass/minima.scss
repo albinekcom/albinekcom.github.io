@@ -57,9 +57,15 @@ $table-text-align: left !default;
   font-size: $base-font-size * $ratio;
 }
 
-// Import partials.
+// Import partials
 @import
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+// Improvements for syntax-highlighting in Dark Mode
+@media (prefers-color-scheme: dark) {
+  .highlight { background: $background-color-for-dark-mode; }
+  .highlight .nt { color: #3f4ff9; }
+}
