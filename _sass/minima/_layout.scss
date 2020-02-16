@@ -156,48 +156,76 @@
   }
 }
 
-
-.contact-links {
-
-}
-
 .contact-link {
   padding: 6px;
 
-  svg:hover #logo-rss {
-    fill: #F26522;
+  .social-icon-background {
+    fill: $social-icon-circle-color;
   }
 
-  svg:hover #logo-email {
-    fill: #D34D43;
+  .social-icon-glyph {
+    fill: $background-color;
   }
 
-  svg:hover #logo-github {
-    fill: #383838;
-  }
+  &:hover {
+    .social-icon-glyph {
+      fill: #FFF;
+    }
 
-  svg:hover #logo-twitter {
-    fill: #00ACED;
-  }
+    #icon-rss {
+      .social-icon-background {
+        fill: #F26522;
+      }
+    }
 
-  svg:hover #logo-linkedin {
-    fill: #0077B5;
-  }
+    #icon-email {
+      .social-icon-background {
+        fill: #D34D43;
+      }
+    }
 
-  svg:hover #logo-facebook {
-    fill: #3B5998;
-  }
+    #icon-github {
+      .social-icon-background {
+        fill: #383838;
+      }
+    }
 
-  svg:hover #logo-instagram {
-    fill: #D92583;
-  }
+    #icon-twitter {
+      .social-icon-background {
+        fill: #00ACED;
+      }
+    }
 
-  svg:hover #logo-snapchat-1 {
-    fill: #FFFA37;
-  }
+    #icon-linkedin {
+      .social-icon-background {
+        fill: #0077B5;
+      }
+    }
 
-  svg:hover #logo-snapchat-2 {
-    stroke: #020202;
+    #icon-facebook {
+      .social-icon-background {
+        fill: #3B5998;
+      }
+      .social-icon-glyph {
+        fill: #FFF;
+      }
+    }
+
+    #icon-instagram {
+      .social-icon-background {
+        fill: #D92583;
+      }
+    }
+
+    #icon-snapchat {
+      .social-icon-background {
+        fill: #FFFA37;
+      }
+
+      .social-icon-glyph {
+        stroke: #020202;
+      }
+    }
   }
 
 }
@@ -241,28 +269,16 @@
   .navigation-about:hover {
     color: $brand-color;
   }
-}
-
-@media (prefers-color-scheme: dark) {
-  svg #logo-snapchat-2 {
-    fill: $background-color-for-dark-mode;
-  }
-
-  .contact-circle {
-    &:hover {
-      fill: #FFF;
-    }
-  }
-
-  #logo-instagram-inside {
-    fill: $background-color-for-dark-mode;
-  }
-
-  .contact-circle {
-    fill: $social-icon-circle-color-for-dark-mode;
-  }
 
   .contact-link {
     text-decoration: none;
+
+    .social-icon-background {
+      fill: $social-icon-circle-color-for-dark-mode;
+    }
+
+    .social-icon-glyph {
+      fill: $background-color-for-dark-mode;
+    }
   }
 }
