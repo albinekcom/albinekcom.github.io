@@ -35,8 +35,8 @@ $navigation-background-color-for-dark-mode: rgb(22, 22, 22) !default;
 $about-color:                    #F3F3F3 !default;
 $about-color-for-dark-mode:       $text-color-for-dark-mode !default;
 $border-color-for-dark-mode:     darken($text-color-for-dark-mode, 30%) !default;
-$social-icon-circle-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default
-$emphasized-text-border-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default
+$social-icon-circle-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default;
+$emphasized-text-border-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default;
 
 // Width of the content area
 $content-width:    800px !default;
@@ -66,6 +66,12 @@ $table-text-align: left !default;
 
 // Improvements for syntax-highlighting in Dark Mode
 @media (prefers-color-scheme: dark) {
-  .highlight { background: $background-color-for-dark-mode; }
-  .highlight .nt { color: #3f4ff9; }
+  .highlight {
+    background: $background-color-for-dark-mode;
+    border-color: lighten($background-color-for-dark-mode, 25%);
+  }
+
+  .highlight .nt {
+    color: #3f4ff9;
+  }
 }
