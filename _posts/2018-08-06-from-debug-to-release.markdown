@@ -7,7 +7,7 @@ categories:   swift
 image:        /assets/img/post/from-debug-to-release-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## Debug anyone?
 

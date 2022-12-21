@@ -7,7 +7,7 @@ categories:   info
 image:        /assets/img/post/vision-0.jpg
 ---
 
-![Vision]({{ page.image }})
+![Vision]({{ page.image }}){:.cover-img}
 
 ## Why?
 
@@ -32,7 +32,7 @@ Every post will be divided into some small sections and I will try posting them 
 
 ## Technical aspects
 
-Mobile first - definitely. Keeping site [The W3C Markup Validation Service](https://validator.w3.org/nu/?doc=http%3A%2F%2Falbinek.com) error and warning free, [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=albinek.com) and [Seoptimer](http://www.seoptimer.com/albinek.com) scores as high as it is possible.
+Mobile first - definitely. Keeping site [The W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Falbinek.com) error and warning free, [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/?url=albinek.com) and [Seoptimer](https://www.seoptimer.com/albinek.com) scores as high as it is possible.
 
 It is used [Jekyll - static site generator](https://jekyllrb.com). Website is hosted on [GitHub Pages](https://pages.github.com). The theme of this website is modified and adjusted [minima](https://github.com/jekyll/minima). Vector images over rasterized images! (make images sharp as 🔪) Optimize everything what can be and emoji used in a proper way. 😎
 

@@ -7,7 +7,7 @@ categories:   tools
 image:        /assets/img/post/ci-in-the-cloud-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## Build, test, push, sleep, repeat
 

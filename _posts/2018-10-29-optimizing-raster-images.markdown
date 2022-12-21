@@ -7,7 +7,7 @@ categories:   graphics
 image:        /assets/img/post/optimizing-raster-images-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## Show me your #nice_pictures
 

@@ -7,7 +7,7 @@ categories:   web
 image:        /assets/img/post/going-dark-web-edition-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## The darkness is coming
 

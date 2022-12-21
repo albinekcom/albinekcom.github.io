@@ -7,7 +7,7 @@ categories:   info
 image:        /assets/img/post/hello-blog-0.jpg
 ---
 
-![Hello!]({{ page.image }})
+![Hello!]({{ page.image }}){:.cover-img}
 
 This is the first post. It will be used to check if everything looks properly.
 
@@ -48,4 +48,4 @@ print(what: "Hi", to: "Stefan")
 
 Example link: [albinek.com][albinekcom]
 
-[albinekcom]: http://albinek.com
+[albinekcom]: https://albinek.com

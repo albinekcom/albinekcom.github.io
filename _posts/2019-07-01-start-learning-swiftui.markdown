@@ -7,7 +7,7 @@ categories:   swift
 image:        /assets/img/post/start-learning-swiftui-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## SwiftUI
 

@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -15,37 +15,22 @@ $spacing-unit:     30px !default;
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
 $brand-color:      #bf2529 !default;
-$about-color:      #F3F3F3 !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
-$navigation-bottom-left-background-color: #000000 !default;
-$navigation-top-right-background-color: #4D4D4D !default;
-
-$social-icon-circle-color: #cccccc !default;
+$header-background-color: rgb(22, 22, 22) !default;
 
 // Dark Mode
 
-$text-color-for-dark-mode:       #cccccc !default;
-$background-color-for-dark-mode: rgb(28, 28, 28) !default;
-$brand-color-for-dark-mode:      #bf2529 !default;
-$navigation-background-color-for-dark-mode: rgb(22, 22, 22) !default;
-$about-color:                    #F3F3F3 !default;
-$about-color-for-dark-mode:       $text-color-for-dark-mode !default;
-$border-color-for-dark-mode:     darken($text-color-for-dark-mode, 30%) !default;
-$social-icon-circle-color-for-dark-mode: darken($text-color-for-dark-mode, 25%) !default;
-$emphasized-text-border-color-for-dark-mode: darken($text-color-for-dark-mode, 15%) !default;
+$text-color-for-dark-mode:        #cccccc !default;
+$background-color-for-dark-mode:  rgb(28, 28, 28) !default;
+$grey-color-for-dark-mode:        #828282 !default;
 
 // Width of the content area
 $content-width:    800px !default;
-
-$on-palm:          600px !default;
 $on-laptop:        800px !default;
-
-
-$table-text-align: left !default;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -63,15 +48,3 @@ $table-text-align: left !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
-
-// Improvements for syntax-highlighting in Dark Mode
-@media (prefers-color-scheme: dark) {
-  .highlight {
-    background: $background-color-for-dark-mode;
-    border-color: lighten($background-color-for-dark-mode, 25%);
-  }
-
-  .highlight .nt {
-    color: #3f4ff9;
-  }
-}

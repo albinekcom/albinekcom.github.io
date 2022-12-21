@@ -7,7 +7,7 @@ categories:   graphics
 image:        /assets/img/post/optimizing-vector-graphics-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## Vectors, vectors everywhere
 

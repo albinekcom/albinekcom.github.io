@@ -7,7 +7,7 @@ categories:   tools
 image:        /assets/img/post/making-tools-up-to-date-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## "There is a new update"
 
@@ -56,7 +56,7 @@ It looks for these two files (`macos.sh` and `brew.sh`) and invoke the code in t
 
 ## Updating all tools - an automatic way
 
-"Automate everything what you can". According to that mantra let's run this script automatically. There are few ways to do it but for `macOS` I can recommend [`launchd`](http://www.launchd.info).
+"Automate everything what you can". According to that mantra let's run this script automatically. There are few ways to do it but for `macOS` I can recommend [`launchd`](https://www.launchd.info).
 
 To make it easy for everyone I have included a file `com.albinek.mac.updater_for_macos.plist` as an example. Download it, modify values like `PATH` (the path to your user's directory) and `ProgramArguments` (path to your updater script and with the tools' names you would like to have up-to-date). You can also change the time when this script will be invoked. Now you only need to move this file to `~/Library/LaunchAgents/` directory and load it using `launchctl` command.
 

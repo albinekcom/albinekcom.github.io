@@ -7,7 +7,7 @@ categories:   swift
 image:        /assets/img/post/map-method-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## How to iterate?
 

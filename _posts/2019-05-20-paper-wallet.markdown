@@ -7,7 +7,7 @@ categories:   crypto
 image:        /assets/img/post/paper-wallet-0.png
 ---
 
-![Cover]({{ page.image }})
+![Cover]({{ page.image }}){:.cover-img}
 
 ## Give me my money
 

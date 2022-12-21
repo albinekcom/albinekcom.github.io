@@ -1,59 +1,31 @@
 /**
  * Site header
  */
-.site-header {
-  border-bottom: 1px solid;
-  border-color: $grey-color-light;
-
-  background: $navigation-bottom-left-background-color;
-  background: -webkit-linear-gradient(left bottom, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top right, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(top right, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to top right, $navigation-bottom-left-background-color, $navigation-top-right-background-color); /* Standard syntax */
+ .site-header {
+  border-bottom: 1px solid $grey-color-dark;
+  background: $header-background-color;
 }
 
-.main-header {
-  position: relative;
-  text-align: center;
-  height: 64px;
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr repeat(1, auto) 1fr;
+  align-items: center;
+  padding: 16px 0px 16px 0px;
 }
 
-.header-left {
-  float: left;
-  width: 33.33%;
-  height: 100%;
+.header-logo {
+  display: flex;
+  grid-column-start: 2;
 }
 
-.header-center {
-  float: left;
-  width: 33.33%;
-  height: 100%;
-}
-
-.header-right {
-  float: left;
-  width: 33.33%;
-  height: 100%;
-}
-
-.centered-inner {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.right-inner {
-  transform: translate(0%, 80%);
-  text-align: right;
-}
-
-.navigation-about {
-  color: $about-color;
+.header-about {
+  margin-left: auto;
+  text-decoration: none;
+  color: $grey-color-light;
   font-size: $small-font-size;
 
   &:visited {
-    color: $about-color;
+    color: $grey-color-light;
   }
 
   &:hover {
@@ -61,31 +33,44 @@
   }
 }
 
-.site-logo {
-  display: inline-block;
-  margin-top: 6px;
+.header-logo-image {
+  height: 28px;
 }
 
 /**
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid;
-  border-color: $grey-color-light;
-  padding: $spacing-unit 0;
-  color: $grey-color;
-  text-align: center;
+  border-top: 1px solid $grey-color;
 }
+
+.footer-contact-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+
+.footer-contact-item {
+  display: flex;
+  margin: 8px;
+  padding: 4px;
+}
+
+.footer-legal {
+  text-align: center;
+  color: $grey-color-dark;
+}
+
+
 
 /**
  * Page content
  */
 .page-content {
   padding: $spacing-unit 0;
-}
-
-.page-heading {
-  @include relative-font-size(1.25);
+  flex: 1;
 }
 
 .post-list {
@@ -104,12 +89,11 @@
 
 .post-link {
   display: block;
+  text-decoration: none;
   @include relative-font-size(1.5);
 }
 
-.post-link-header {
-  margin-bottom: 0;
-}
+
 
 /**
  * Posts
@@ -156,129 +140,132 @@
   }
 }
 
-.contact-link {
-  padding: 6px;
+.about-links {
+  li {
+    padding-bottom: 8px;
+  }
+}
 
-  .social-icon-background {
-    fill: $social-icon-circle-color;
+.footer-contact-item {
+
+  .contact-icon-background {
+    fill: $grey-color;
   }
 
-  .social-icon-glyph {
+  .contact-icon-glyph {
     fill: $background-color;
   }
 
   &:hover {
-    .social-icon-glyph {
+    .contact-icon-glyph {
       fill: #FFF;
     }
 
-    #icon-rss {
-      .social-icon-background {
-        fill: #F26522;
-      }
-    }
-
     #icon-email {
-      .social-icon-background {
+      .contact-icon-background {
         fill: #D34D43;
       }
     }
 
     #icon-github {
-      .social-icon-background {
+      .contact-icon-background {
         fill: #383838;
       }
     }
 
-    #icon-twitter {
-      .social-icon-background {
-        fill: #00ACED;
-      }
-    }
-
     #icon-linkedin {
-      .social-icon-background {
+      .contact-icon-background {
         fill: #0077B5;
       }
     }
 
-    #icon-facebook {
-      .social-icon-background {
+    #icon-twitter_ {
+      .contact-icon-background {
+        fill: #00ACED;
+      }
+    }
+
+    #icon-facebook_ {
+      .contact-icon-background {
         fill: #3B5998;
       }
-      .social-icon-glyph {
+      .contact-icon-glyph {
         fill: #FFF;
       }
     }
 
-    #icon-instagram {
-      .social-icon-background {
+    #icon-instagram_ {
+      .contact-icon-background {
         fill: #D92583;
-      }
-    }
-
-    #icon-snapchat {
-      .social-icon-background {
-        fill: #FFFA37;
-      }
-
-      .social-icon-glyph {
-        stroke: #020202;
       }
     }
   }
 
 }
 
-.share-buttons {
-  overflow: hidden;
-  margin-bottom: 16px;
-}
 
-.fb-share-button {
-  float: left;
-  margin-right: 8px;
-}
-
-.tw-share-button {
-  overflow: hidden;
-}
-
-#logo-instagram-inside {
-  fill: $background-color;
-}
 
 /**
 * Dark Mode
 */
 
 @media (prefers-color-scheme: dark) {
-  .site-header {
-    background: $navigation-background-color-for-dark-mode;
-    border-color: $border-color-for-dark-mode;
+  body {
+    color: $text-color-for-dark-mode;
+    background-color: $background-color-for-dark-mode;
   }
 
-  .site-footer {
-    border-color: $border-color-for-dark-mode;
+  table {
+    color: $text-color-for-dark-mode;
+
+    th {
+      background-color: darken($background-color-for-dark-mode, 5%);
+      border-color: lighten($background-color-for-dark-mode, 25%);
+    }
+
+    tr {
+      &:nth-child(even) {
+        background-color: lighten($background-color-for-dark-mode, 5%);
+      }
+    }
+
+    td {
+      border-color: lighten($background-color-for-dark-mode, 25%);
+    }
+
   }
 
-  .navigation-about, .navigation-about:visited {
-    color: $about-color-for-dark-mode;
+  a, a:visited {
+    color: $text-color-for-dark-mode;
+    text-decoration: underline;
   }
 
-  .navigation-about:hover {
+  a:hover {
     color: $brand-color;
   }
 
-  .contact-link {
-    text-decoration: none;
+  .footer-contact-item {
 
-    .social-icon-background {
-      fill: $social-icon-circle-color-for-dark-mode;
+    .contact-icon-background {
+      fill: $grey-color-for-dark-mode;
     }
 
-    .social-icon-glyph {
+    .contact-icon-glyph {
       fill: $background-color-for-dark-mode;
     }
+
   }
+
+  .footer-legal {
+    color: $grey-color-for-dark-mode;
+  }
+
+  .site-footer {
+    border-top: 1px solid $grey-color-for-dark-mode;
+  }
+
+  .site-header {
+    border-bottom: 1px solid $grey-color-for-dark-mode;
+  }
+
 }
