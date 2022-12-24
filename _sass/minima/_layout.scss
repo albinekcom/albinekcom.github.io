@@ -9,7 +9,7 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding: $spacing-unit / 2;
+  padding: $spacing-unit / 2 0 $spacing-unit / 2 0;
 }
 
 .header-dummy {
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 16px;
+  padding-top: $spacing-unit / 2;
   padding-bottom: 8px;
 }
 
@@ -62,7 +62,7 @@
 .footer-legal {
   text-align: center;
   color: $grey-color-dark;
-  margin-bottom: 8px;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
