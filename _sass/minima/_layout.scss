@@ -7,22 +7,25 @@
 }
 
 .header-container {
-  display: grid;
-  grid-template-columns: 1fr repeat(1, auto) 1fr;
-  align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding: $spacing-unit / 2;
 }
 
+.header-dummy {
+  visibility: hidden;
+}
+
 .header-logo {
-  display: flex;
-  grid-column-start: 2;
+  height: 29px;
+  width: 57px;
 }
 
 .header-about {
-  margin-left: auto;
   text-decoration: none;
   color: $grey-color-light;
   font-size: $small-font-size;
+  padding-top: 4px;
 
   &:visited {
     color: $grey-color-light;
@@ -33,9 +36,7 @@
   }
 }
 
-.header-logo-image {
-  height: 28px;
-}
+
 
 /**
  * Site footer
