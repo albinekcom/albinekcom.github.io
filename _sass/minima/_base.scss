@@ -219,7 +219,7 @@ html {
      }
    }
    th, td {
-     padding: math.div($spacing-unit, 3) ($spacing-unit * 0.5);
+     padding: ($spacing-unit * 0.33) ($spacing-unit * 0.5);
    }
    th {
      background-color: lighten($grey-color-light, 3%);
