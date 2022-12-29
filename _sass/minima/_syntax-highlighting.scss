@@ -2,7 +2,7 @@
  * Syntax highlighting styles
  */
  .highlight {
-    background: #fff;
+    background-color: #fff;
     @extend %vertical-rhythm;
 
     .c     { color: #998; font-style: italic } // Comment
@@ -68,7 +68,7 @@
 
   @media (prefers-color-scheme: dark) {
     .highlight {
-      background: lighten($background-color-for-dark-mode, 2%);
+      background-color: lighten($background-color-for-dark-mode, 2%);
       border-color: lighten($background-color-for-dark-mode, 25%);
     }
 

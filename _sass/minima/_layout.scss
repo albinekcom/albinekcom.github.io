@@ -3,7 +3,7 @@
  */
  .site-header {
   border-bottom: 1px solid $grey-color-dark;
-  background: $header-background-color;
+  background-color: $header-background-color;
 }
 
 .header-container {
@@ -215,10 +215,9 @@
 @media (prefers-color-scheme: dark) {
   body {
     color: $text-color-for-dark-mode;
-    background-color: $background-color-for-dark-mode;
   }
 
-  html {
+  .page-content {
     background-color: $background-color-for-dark-mode;
   }
 
@@ -249,6 +248,10 @@
 
   a:hover {
     color: $brand-color;
+  }
+
+  .site-footer {
+    background-color: $background-color-for-dark-mode;
   }
 
   .footer-contact-item {
