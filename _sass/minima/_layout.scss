@@ -215,9 +215,6 @@
 @media (prefers-color-scheme: dark) {
   body {
     color: $text-color-for-dark-mode;
-  }
-
-  .page-content {
     background-color: $background-color-for-dark-mode;
   }
 
@@ -248,10 +245,6 @@
 
   a:hover {
     color: $brand-color;
-  }
-
-  .site-footer {
-    background-color: $background-color-for-dark-mode;
   }
 
   .footer-contact-item {
