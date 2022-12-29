@@ -22,10 +22,11 @@
 }
 
 .header-about {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: $grey-color-light;
   font-size: $small-font-size;
-  padding-top: 4px;
 
   &:visited {
     color: $grey-color-light;
